@@ -22,8 +22,3 @@ spec:
           name: client
           ports:
             - containerPort: 3000
-      tolerations:
-        - key: "app"
-          operator: "Equal"
-          value: "client"
-          effect: "NoSchedule"
