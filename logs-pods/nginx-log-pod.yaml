@@ -22,7 +22,7 @@ spec:
         [
           "sh",
           "-c",
-          "while true; do cat /var/log/nginx/access.log /var/log/nginx/error.log; sleep 30; done",
+          "while true; do cat /var/log/nginx/access.log /var/log/nginx/error.log; sleep 1; done",
         ]
       volumeMounts:
         - name: varlog
