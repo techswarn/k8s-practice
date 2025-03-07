@@ -19,7 +19,7 @@ spec:
     spec:
       runtimeClassName: gvisor
       containers:
-        - image: swarntech/titan:48cb278
+        - image: swarntech/titan:3cf5f15
           name: titan
           ports:
             - containerPort: 3000
