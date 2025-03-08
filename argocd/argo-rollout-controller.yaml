@@ -8,9 +8,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/techswarn/k8s-practice.git
+    repoURL: https://github.com/techswarn/titan.git
     targetRevision: main
-    path: app-manifest/titan/k8s
+    path: k8s
   destination:
     server: https://kubernetes.default.svc
     namespace: default
